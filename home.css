@@ -1,0 +1,423 @@
+/*----header-----*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1,h2{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.primary-btn{
+    padding: 15px 40px;
+    background: rgb(37, 128, 212);
+    font-weight: bold;
+    color: wheat;
+}
+
+.secondary-btn{
+    padding: 15px 40px;
+    background: none;
+    border: 2px solid white;
+    font-weight: bold;
+    color: wheat;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+
+header{
+    height: 10vh;
+    line-height: 10vh;
+    padding: 0 20px;
+}
+
+header img{
+    height: 110%;
+    width: 35%;
+    margin: -25px 0;
+}
+
+header ul{
+    display:inline-block;
+}
+
+header ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    color: black;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color: rgb(247, 178, 51);
+}
+
+header i{
+    margin: 0 20px;
+}
+
+header button{
+    padding: 13px 40px;
+}
+
+/*----header-----*/
+
+/*----home-----*/
+.home{
+    height: 80vh;
+    color: white;
+}
+
+.home img{
+    height: 70vh;
+    width: 200vh;
+}
+
+.home .text{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.home .text h1 {
+    font-size: 60px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.home p{
+    margin: 20px 0;
+}
+
+.home button{
+    margin-right: 20px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+    position: absolute;
+    top:40%;
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color:#fff;
+}
+/*----home-----*/
+
+/*----book-----*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.book{
+    padding: 40px 0;
+    background:  rgba(7, 6, 6, 0.795);
+    color: white;
+}
+
+h1{
+    font-family: serif;
+}
+
+.book h1{
+    font-size: 28px;
+}
+
+.book h1 span{
+    color: rgb(37, 128, 212);
+}
+
+.book input{
+    padding: 20px;
+}
+
+.book input:nth-last-child(1){
+    background:rgb(37, 128, 212) ;
+    color: #fff;
+}
+/*----book-----*/
+
+/*----about-----*/
+.right{
+    width: 90%;
+    height: 50%;
+    padding: 30px;
+}
+
+.mtop{
+    margin-top: 80px;
+}
+
+.heading h1{
+    font-size: 100px;
+    font-weight: 500;
+    opacity: 0.1;
+    font-family: serif;
+    position: absolute;
+    top: 10px;
+}
+
+.heading h2{
+    margin: 30px 0;
+    font-size: 45px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.about .heading h1{
+    top: 55px;
+}
+
+.about {
+    position: relative;
+}
+
+.about .left{
+    margin-top: 30px;
+}
+
+.about p{
+    font-size: 15px;
+}
+
+.about button{
+    margin: 30px 0;
+}
+/*----about-----*/
+
+/*----counter-----*/
+
+.counter{
+    background-image: url(images/pic6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    color: #fff;
+}
+.counter .grid{
+    grid-template-columns: repeat(4,ifr);
+    text-align: center;
+    place-items: center;
+    padding-top: 60px;
+}
+
+.counter h1{
+    font-size: 50px;
+}
+
+.counter hr{
+    width: 50%;
+    margin: 10px auto;
+    background-color:rgb(37, 128, 212)  ;
+    height: 2px;
+    border: none;
+}
+/*----counter-----*/
+
+/*----rooms-----*/
+
+.rooms{
+    position: relative;
+}
+
+.rooms .text{
+    border: 1px soliid rgba(0, 0, 0, 0.1);
+    border-top:none;
+    margin-top: 300px;
+    margin-right: 50px;
+    margin-left: -350px;
+    padding: 0px;
+    
+}
+
+.rooms i{
+    font-size: 12px;
+}
+
+.rooms p{
+    margin:10px 0;
+    opacity: 0.7;
+}
+
+.rooms h3{
+    font-size: 30px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgb(37, 128, 212);
+}
+
+.rooms h3 span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+/*----rooms-----*/
+
+/*----services-----*/
+
+.services{
+    position: relative;
+}
+
+  .service__list {
+    list-style: none;
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .service__list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+  }
+  
+  .service__list span {
+    padding: 5px 12px;
+    font-size: 1.75rem;
+    color: var(--text-dark);
+    background-color: var(--text-light);
+    border-radius: 100%;
+  }
+  
+  .service__list li:nth-child(1) span {
+    color: #60a5fa;
+    background-color: #dbeafe;
+  }
+  
+  .service__list li:nth-child(2) span {
+    color: #f472b6;
+    background-color: #fce7f3;
+  }
+  
+  .service__list li:nth-child(3) span {
+    color: #c084fc;
+    background-color: #f3e8ff;
+  }
+  
+  .service__list li:nth-child(4) span {
+    color: #fb7185;
+    background-color: #ffe4e6;
+  }
+  
+/*----services-----*/
+
+/*----gallery-----*/
+.heading{
+    position: relative;
+}
+.gallary img {
+    width: 270px;
+    height: 350px;
+  }
+  
+ 
+  
+
+/*----gallery-----*/
+
+/*----customer-----*/
+.Customer{
+    background-image: url(images/bkpic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.Customer .container{
+    max-width: 70%;
+}
+
+.Customer .item{
+    padding: 7% 0;
+}
+
+.Customer .h1{
+    width:100px;
+    height: 100px;
+    size: 70%;
+    background: rgba(126, 193,64, 50);
+
+}
+
+.Customer p{
+    line-height: 20px;
+}
+
+.Customer h3{
+    margin-top: 10px;
+    color: rgb(37, 128, 212);
+}
+
+.Customer span{
+    font-size: 13px;
+    opacity: 70%;
+}
+/*----customer-----*/
+
+/*--------------map--------*/
+.map iframe {
+    padding: 50px;
+    
+    height: 50%;
+    width: 50%;
+  }
+  
+  /*--------------map--------*/
+
